@@ -1,157 +1,107 @@
 # 🍔 WebNest Burguer
 
-> Site demonstrativo de uma hamburgueria artesanal desenvolvido pela **WebNest**.
+Site demonstrativo de uma hamburgueria artesanal desenvolvido como parte do portfólio da **WebNest**.
 
-O **WebNest Burguer** é um projeto desenvolvido para compor o portfólio da WebNest, apresentando uma proposta de site moderno, responsivo e visualmente marcante para uma hamburgueria.
+O projeto foi criado com foco em um design moderno, responsivo e visualmente atrativo, apresentando um cardápio de hambúrgueres, a história da marca e uma página inicial voltada para conversão.
 
----
+## 🌐 Demonstração
 
-## 📖 Sobre o Projeto
+🔗 **Acesse o site:** [WebNest Burguer](https://gabriel-silira.github.io/WebNest-Burguer/)
 
-O projeto foi criado com o objetivo de desenvolver uma presença digital para uma hamburgueria fictícia, explorando conceitos de:
-
-- 🎨 Design visual
-- 📱 Responsividade
-- 🧭 Navegação
-- 🍔 Apresentação de produtos
-- 📖 Storytelling da marca
-- ⚡ Experiência do usuário
-
-O site apresenta diferentes seções para apresentar a hamburgueria, seu cardápio e sua história.
+> O projeto está hospedado pelo GitHub Pages.
 
 ---
 
-## ✨ Funcionalidades
+## 📸 Sobre o projeto
 
-- 🏠 **Página inicial**
-- 🍔 **Cardápio com 9 hambúrgueres**
-- 💰 **Preços dos produtos**
-- 📖 **Seção Nossa História**
-- 🧭 **Menu de navegação**
-- 📱 **Layout responsivo**
-- 🎨 **Identidade visual personalizada**
-- 🔗 **Botões de chamada para ação (CTA)**
-- 🖼️ **Imagens personalizadas para os produtos**
+O **WebNest Burguer** é um projeto fictício desenvolvido para demonstrar as possibilidades de criação de sites profissionais para empresas do ramo alimentício.
+
+A proposta foi criar uma identidade visual marcante, utilizando uma combinação de tons escuros, vermelho, dourado/laranja e tons claros.
+
+O site conta com:
+
+- 🏠 Página inicial com seção Hero
+- 🍔 Cardápio com 9 hambúrgueres
+- 📖 Seção contando a história da hamburgueria
+- 🛒 Botões para pedidos
+- 📱 Design responsivo
+- 🎨 Identidade visual própria
+- ⚡ Layout otimizado para diferentes tamanhos de tela
 
 ---
 
-## 🛠️ Tecnologias
+## 🛠️ Tecnologias utilizadas
 
 O projeto foi desenvolvido utilizando:
 
-- **HTML5** — estrutura e conteúdo da página
+- **HTML5** — estrutura do site
 - **CSS3** — estilização e layout
-- **CSS Media Queries** — adaptação para diferentes tamanhos de tela
-- **Google Fonts** — tipografia utilizada no projeto
-- **Unsplash** — imagens utilizadas como parte da composição visual
+- **CSS Media Queries** — responsividade
+- **Google Fonts** — tipografia
+- **Unsplash** — imagens utilizadas no projeto
+- **GitHub Pages** — hospedagem do site
 
-### 🔤 Fontes
+### Fontes utilizadas
 
-As fontes utilizadas no projeto são:
+O projeto utiliza principalmente:
 
-- **Oswald**
-- **Open Sans**
-- **Science Gothic**
-- **Sora**
+- Oswald
+- Open Sans
+- Science Gothic
+- Sora
 
 ---
 
-## 🎨 Identidade Visual
+## 🎨 Identidade visual
 
-A identidade visual do WebNest Burguer foi desenvolvida utilizando uma combinação de tons escuros, creme, vermelho, laranja e cinza.
+A identidade visual do WebNest Burguer foi construída utilizando uma paleta inspirada em hamburguerias premium.
 
-| Nome    | Cor | Hexadecimal |
-| ------- | --- | ----------- |
-| Dark    | ⚫  | `#0A0A0A`   |
-| Light   | 🟤  | `#F5E6D3`   |
-| Title   | 🔴  | `#C1121F`   |
-| Details | 🟠  | `#F6A534`   |
-| Card    | ⚪  | `#E5E5E5`   |
-
-### Aplicação das cores
-
-- `#0A0A0A` → Header e elementos escuros
-- `#F5E6D3` → Fundo principal
-- `#C1121F` → Títulos e elementos de destaque
-- `#F6A534` → Botões e detalhes
-- `#E5E5E5` → Cards do cardápio
+| Cor      | Hexadecimal | Utilização                 |
+| -------- | ----------- | -------------------------- |
+| Preto    | `#0A0A0A`   | Header e elementos escuros |
+| Creme    | `#F5E6D3`   | Fundo principal            |
+| Vermelho | `#C1121F`   | Títulos e destaques        |
+| Laranja  | `#F6A534`   | Botões e detalhes          |
+| Cinza    | `#E5E5E5`   | Cards do cardápio          |
 
 ---
 
 ## 🍔 Cardápio
 
-O site possui **9 hambúrgueres**, cada um com sua própria identidade visual, descrição e preço.
+O site apresenta 9 opções de hambúrgueres:
 
-Entre as opções estão:
+1. Classic Burguer
+2. Bacon Supreme
+3. Cheddar Melt
+4. Crispy Chicken
+5. Double Bacon
+6. Fire Burguer
+7. Onion Smash
+8. Spicy Burguer
+9. WN Supreme
 
-- Classic Burguer
-- Fire Burger
-- Bacon Supreme
-- Cheddar Melt
-- Spicy Burger
-- Crispy Chicken
-- Onion Smash
-- Double Bacon
-- WN Supreme
-
-Cada card do cardápio apresenta:
-
-- 🖼️ Imagem
-- 🍔 Nome do hambúrguer
-- 📝 Descrição
-- 💰 Preço
-- 🔘 Botão de ação
+Cada hambúrguer possui sua própria imagem, descrição e preço.
 
 ---
 
-## 📖 Nossa História
+## 📖 Nossa história
 
-A seção **Nossa História** foi criada para aproximar o cliente da marca.
+A seção "Nossa História" foi criada para aproximar a marca do cliente, apresentando a origem fictícia da hamburgueria e mostrando que a proposta vai além de simplesmente vender hambúrgueres.
 
-A ideia é apresentar a hamburgueria não apenas como um lugar para comprar comida, mas como uma marca que valoriza momentos, pessoas e experiências.
+A ideia central da marca é:
 
-> **"Mais que um hambúrguer. Um momento para lembrar."**
-
----
-
-## 📱 Responsividade
-
-O site foi desenvolvido para se adaptar a diferentes tamanhos de tela.
-
-### 💻 Desktop
-
-- Header horizontal
-- Hero dividido entre imagem e conteúdo
-- Cardápio em 3 colunas
-- Seção de história dividida entre imagem e texto
-
-### 📱 Tablet
-
-- Layout adaptado para telas intermediárias
-- Cardápio reorganizado
-- Redimensionamento de textos e imagens
-- Ajustes na navegação
-
-### 📱 Celular
-
-- Layout vertical
-- Menu adaptado
-- Cardápio em uma coluna
-- Imagens redimensionadas
-- Textos ajustados para telas menores
-
-A responsividade é feita através de **CSS Media Queries** presentes no arquivo `responsive.css`.
+> "Mais que um hambúrguer. Um momento para lembrar."
 
 ---
 
-## 📂 Estrutura do Projeto
+## 📁 Estrutura do projeto
 
 ```text
 WebNest-Burguer/
 │
 ├── images/
 ├── index.html
-├── README.md
+├── style.css
 ├── responsive.css
-└── style.css
+└── README.md
 ```
