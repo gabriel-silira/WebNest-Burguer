@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald&family=Science+Gothic:wght@100..900&family=Sora:wght@100..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  list-style: none;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+:root {
+  --dark: #0a0a0a;
+  --light: #f5e6d3;
+  --title: #c1121f;
+  --details: #f6a534;
+  --card: #e5e5e5;
+}
+
+.header {
+  width: 100%;
+  min-height: 90px;
+  background-color: var(--dark);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 15px 5%;
+}
+
+.h-left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: var(--light);
+}
+
+.h-left .logo {
+  width: 100px;
+  height: 100px;
+}
+
+.h-left h1 {
+  font-size: 2.5rem;
+}
+
+.h-right .list {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.list li a {
+  color: var(--light);
+  font-size: 2rem;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.list li a:hover {
+  color: var(--details);
+  transition: 0.5s;
+}
+
+.home {
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+
+  padding: 0 5%;
+  background-color: var(--light);
+  color: var(--dark);
+}
+
+.home .hamburgueria {
+  border-radius: 24px;
+  width: 55%;
+  max-width: 700px;
+  height: auto;
+}
+
+.home .descricao {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 45%;
+  padding: 30px;
+  font-size: 1.3rem;
+}
+
+.home .descricao h2 {
+  font-size: clamp(2rem, 4vw, 3rem);
+  color: var(--title);
+  padding: 20px;
+  text-align: center;
+}
+
+.home .descricao p {
+  padding: 20px;
+  text-align: center;
+}
+
+.home .descricao a {
+  background-color: var(--details);
+  color: var(--light);
+  padding: 10px 20px;
+  border-radius: 12px;
+  font-size: 1.5rem;
+}
+
+.menu {
+  background-color: var(--light);
+  color: var(--dark);
+}
+
+.intro {
+  font-size: 2.5rem;
+  color: var(--title);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  padding: 20px;
+}
+
+.cardapio {
+  width: 100%;
+  padding: 12px;
+  background-color: var(--card);
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.cardapio .card-img {
+  width: 100%;
+  height: 220px;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.cardapio .card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.card-desc {
+  padding: 8px 4px 4px;
+}
+
+.card-desc h3 {
+  margin: 0 0 5px;
+  font-size: 32px;
+}
+
+.card-desc p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.card-desc button {
+  color: var(--light);
+  background-color: var(--details);
+  font-size: 32px;
+  margin-top: 10px;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.card-desc-r {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card-desc .preco {
+  color: var(--light);
+  background-color: var(--title);
+  font-size: 32px;
+  margin-top: 10px;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 12px;
+}
+
+.about {
+  min-height: 100vh;
+  background-color: var(--light);
+}
+
+.historia {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  padding: 50px 5%;
+  align-items: center;
+}
+
+.sobre-img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sobre-img img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  border-radius: 24px;
+  display: block;
+}
+
+.sobre-desc {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.sobre-desc h2 {
+  font-size: 2rem;
+  color: var(--title);
+}
+
+.sobre-desc h3 {
+  font-size: 1.5rem;
+}
+
+.sobre-desc p {
+  font-size: 1.2rem;
+}
+
+.sobre-desc h4 {
+  font-size: 1.8rem;
+  color: var(--details);
+}

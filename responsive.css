@@ -1,0 +1,520 @@
+/* =====================================================
+   NOTEBOOK / TABLET GRANDE
+   ===================================================== */
+
+@media (max-width: 1100px) {
+  /* ================= HEADER ================= */
+
+  .header {
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px 5%;
+  }
+
+  .h-left .logo {
+    width: 150px;
+    height: 150px;
+  }
+
+  .h-left h1 {
+    font-size: 3.5rem;
+  }
+
+  .h-right .list {
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .list li a {
+    font-size: 3rem;
+  }
+
+  /* ================= HERO ================= */
+
+  .home {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 5%;
+  }
+
+  .home .hamburgueria {
+    width: 700px;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .home .descricao {
+    width: 100%;
+    padding: 30px;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home .descricao h2 {
+    font-size: 3.5rem;
+    padding: 20px;
+  }
+
+  .home .descricao p {
+    font-size: 2rem;
+    padding: 20px;
+    max-width: 900px;
+  }
+
+  .home .descricao a {
+    font-size: 3.5rem;
+    padding: 15px 25px;
+  }
+
+  /* ================= CARDÁPIO ================= */
+
+  .intro {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .menu-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    padding: 20px 5%;
+  }
+
+  .cardapio .card-img {
+    height: 180px;
+  }
+
+  .card-desc h3 {
+    font-size: 32px;
+  }
+
+  .card-desc p {
+    font-size: 24px;
+  }
+
+  .card-desc button {
+    font-size: 28px;
+  }
+
+  .card-desc .preco {
+    font-size: 28px;
+  }
+
+  .card-desc-r {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+  }
+
+  /* ================= SOBRE ================= */
+
+  .about {
+    min-height: auto;
+  }
+
+  .historia {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 50px 5%;
+    align-items: center;
+  }
+
+  .sobre-img {
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sobre-img img {
+    width: 100%;
+    max-width: 600px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 24px;
+    display: block;
+  }
+
+  .sobre-desc {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .sobre-desc h2 {
+    font-size: 2.5rem;
+    color: var(--title);
+  }
+
+  .sobre-desc h3 {
+    font-size: 1.7rem;
+  }
+
+  .sobre-desc p {
+    font-size: 1.3rem;
+    line-height: 1.5;
+  }
+
+  .sobre-desc h4 {
+    font-size: 1.8rem;
+    color: var(--details);
+  }
+}
+
+/* =====================================================
+   TABLET / CELULAR
+   ===================================================== */
+
+@media (max-width: 800px) {
+  /* ================= HEADER ================= */
+
+  .header {
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px 5%;
+  }
+
+  .h-left .logo {
+    width: 100px;
+    height: 100px;
+  }
+
+  .h-left h1 {
+    font-size: 2.5rem;
+  }
+
+  .h-right .list {
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .list li a {
+    font-size: 2rem;
+  }
+
+  /* ================= HERO ================= */
+
+  .home {
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 5%;
+    text-align: center;
+  }
+
+  .home .hamburgueria {
+    width: 100%;
+    max-width: 550px;
+    height: auto;
+  }
+
+  .home .descricao {
+    width: 100%;
+    padding: 20px 10px;
+    gap: 25px;
+  }
+
+  .home .descricao h2 {
+    font-size: 3rem;
+    padding: 15px;
+  }
+
+  .home .descricao p {
+    font-size: 1.5rem;
+    padding: 15px;
+  }
+
+  .home .descricao a {
+    font-size: 2rem;
+    padding: 12px 20px;
+  }
+
+  /* ================= CARDÁPIO ================= */
+
+  .intro {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .menu-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    padding: 20px 5%;
+  }
+
+  .cardapio .card-img {
+    height: 180px;
+  }
+
+  .card-desc {
+    padding: 8px 4px 4px;
+  }
+
+  .card-desc h3 {
+    font-size: 22px;
+  }
+
+  .card-desc p {
+    font-size: 13px;
+    line-height: 1.4;
+  }
+
+  .card-desc button {
+    font-size: 17px;
+    padding: 8px 12px;
+  }
+
+  .card-desc .preco {
+    font-size: 17px;
+    padding: 8px 12px;
+  }
+
+  .card-desc-r {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+  }
+
+  /* ================= SOBRE ================= */
+
+  .about {
+    min-height: auto;
+  }
+
+  .historia {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    padding: 50px 8%;
+    align-items: center;
+  }
+
+  .sobre-img {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sobre-img img {
+    width: 100%;
+    max-width: 600px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 24px;
+    display: block;
+  }
+
+  .sobre-desc {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 18px;
+  }
+
+  .sobre-desc h2 {
+    font-size: 2.5rem;
+    color: var(--title);
+  }
+
+  .sobre-desc h3 {
+    font-size: 1.6rem;
+  }
+
+  .sobre-desc p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+
+  .sobre-desc h4 {
+    font-size: 1.6rem;
+    color: var(--details);
+  }
+}
+
+/* =====================================================
+   CELULAR
+   ===================================================== */
+
+@media (max-width: 480px) {
+  /* ================= HEADER ================= */
+
+  .header {
+    padding: 12px 15px;
+    gap: 10px;
+  }
+
+  .h-left .logo {
+    width: 65px;
+    height: 65px;
+  }
+
+  .h-left h1 {
+    font-size: 2rem;
+  }
+
+  .h-right .list {
+    gap: 5px;
+  }
+
+  .list li a {
+    font-size: 1.5rem;
+    padding: 8px;
+  }
+
+  /* ================= HERO ================= */
+
+  .home {
+    flex-direction: column;
+    padding: 20px 15px;
+  }
+
+  .home .hamburgueria {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+
+  .home .descricao {
+    width: 100%;
+    padding: 25px 5px;
+    gap: 25px;
+  }
+
+  .home .descricao h2 {
+    font-size: 2.5rem;
+    padding: 10px;
+  }
+
+  .home .descricao p {
+    font-size: 1.3rem;
+    padding: 10px;
+  }
+
+  .home .descricao a {
+    font-size: 2rem;
+    padding: 10px 18px;
+  }
+
+  /* ================= CARDÁPIO ================= */
+
+  .intro {
+    font-size: 1.7rem;
+    text-align: center;
+  }
+
+  .menu-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px 10%;
+  }
+
+  .cardapio {
+    width: 100%;
+  }
+
+  .cardapio .card-img {
+    height: 220px;
+  }
+
+  .card-desc h3 {
+    font-size: 24px;
+  }
+
+  .card-desc p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .card-desc button {
+    font-size: 18px;
+    padding: 8px 12px;
+  }
+
+  .card-desc .preco {
+    font-size: 18px;
+    padding: 8px 12px;
+  }
+
+  .card-desc-r {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+  }
+
+  /* ================= SOBRE ================= */
+
+  .about {
+    min-height: auto;
+  }
+
+  .historia {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px 20px;
+    align-items: center;
+  }
+
+  .sobre-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sobre-img img {
+    width: 100%;
+    max-width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+    display: block;
+  }
+
+  .sobre-desc {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+  }
+
+  .sobre-desc h2 {
+    font-size: 2rem;
+    color: var(--title);
+  }
+
+  .sobre-desc h3 {
+    font-size: 1.3rem;
+  }
+
+  .sobre-desc p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .sobre-desc h4 {
+    font-size: 1.4rem;
+    color: var(--details);
+  }
+}
