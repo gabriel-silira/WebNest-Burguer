@@ -46,9 +46,6 @@ O projeto foi desenvolvido utilizando:
 O projeto utiliza principalmente:
 
 - Oswald
-- Open Sans
-- Science Gothic
-- Sora
 
 ---
 

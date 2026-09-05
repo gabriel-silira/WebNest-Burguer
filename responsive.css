@@ -1,5 +1,5 @@
 /* =====================================================
-   NOTEBOOK / TABLET GRANDE
+  NOTEBOOK / TABLET GRANDE
    ===================================================== */
 
 @media (max-width: 1100px) {
@@ -168,10 +168,16 @@
     font-size: 1.8rem;
     color: var(--details);
   }
+
+  .footer-content,
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+  }
 }
 
 /* =====================================================
-   TABLET / CELULAR
+  TABLET / CELULAR
    ===================================================== */
 
 @media (max-width: 800px) {
