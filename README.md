@@ -100,5 +100,8 @@ WebNest-Burguer/
 ├── index.html
 ├── style.css
 ├── responsive.css
+├── robots.txt
+├── sitemap.xml
 └── README.md
+
 ```
