@@ -1,9 +1,7 @@
-/* =====================================================
-  NOTEBOOK / TABLET GRANDE
-   ===================================================== */
+/* NOTEBOOK / TABLET GRANDE */
 
 @media (max-width: 1100px) {
-  /* ================= HEADER ================= */
+  /* HEADER */
 
   .header {
     flex-direction: column;
@@ -16,7 +14,7 @@
     height: 150px;
   }
 
-  .h-left h1 {
+  .h-left h2 {
     font-size: 3.5rem;
   }
 
@@ -30,7 +28,7 @@
     font-size: 3rem;
   }
 
-  /* ================= HERO ================= */
+  /* HERO */
 
   .home {
     flex-direction: column;
@@ -54,7 +52,7 @@
     align-items: center;
   }
 
-  .home .descricao h2 {
+  .home .descricao h1 {
     font-size: 3.5rem;
     padding: 20px;
   }
@@ -70,7 +68,7 @@
     padding: 15px 25px;
   }
 
-  /* ================= CARDÁPIO ================= */
+  /* CARDÁPIO */
 
   .intro {
     font-size: 3rem;
@@ -111,7 +109,7 @@
     gap: 10px;
   }
 
-  /* ================= SOBRE ================= */
+  /* SOBRE */
 
   .about {
     min-height: auto;
@@ -176,12 +174,10 @@
   }
 }
 
-/* =====================================================
-  TABLET / CELULAR
-   ===================================================== */
+/* TABLET / CELULAR */
 
 @media (max-width: 800px) {
-  /* ================= HEADER ================= */
+  /* HEADER */
 
   .header {
     flex-direction: column;
@@ -194,7 +190,7 @@
     height: 100px;
   }
 
-  .h-left h1 {
+  .h-left h2 {
     font-size: 2.5rem;
   }
 
@@ -208,7 +204,7 @@
     font-size: 2rem;
   }
 
-  /* ================= HERO ================= */
+  /* HERO */
 
   .home {
     flex-direction: column;
@@ -229,7 +225,7 @@
     gap: 25px;
   }
 
-  .home .descricao h2 {
+  .home .descricao h1 {
     font-size: 3rem;
     padding: 15px;
   }
@@ -244,7 +240,7 @@
     padding: 12px 20px;
   }
 
-  /* ================= CARDÁPIO ================= */
+  /* CARDÁPIO */
 
   .intro {
     font-size: 2rem;
@@ -292,7 +288,7 @@
     gap: 8px;
   }
 
-  /* ================= SOBRE ================= */
+  /* SOBRE */
 
   .about {
     min-height: auto;
@@ -353,12 +349,10 @@
   }
 }
 
-/* =====================================================
-   CELULAR
-   ===================================================== */
+/* CELULAR */
 
 @media (max-width: 480px) {
-  /* ================= HEADER ================= */
+  /* HEADER */
 
   .header {
     padding: 12px 15px;
@@ -370,7 +364,7 @@
     height: 65px;
   }
 
-  .h-left h1 {
+  .h-left h2 {
     font-size: 2rem;
   }
 
@@ -383,7 +377,7 @@
     padding: 8px;
   }
 
-  /* ================= HERO ================= */
+  /* HERO */
 
   .home {
     flex-direction: column;
@@ -402,7 +396,7 @@
     gap: 25px;
   }
 
-  .home .descricao h2 {
+  .home .descricao h1 {
     font-size: 2.5rem;
     padding: 10px;
   }
@@ -417,7 +411,7 @@
     padding: 10px 18px;
   }
 
-  /* ================= CARDÁPIO ================= */
+  /* CARDÁPIO */
 
   .intro {
     font-size: 1.7rem;
@@ -465,7 +459,7 @@
     gap: 8px;
   }
 
-  /* ================= SOBRE ================= */
+  /* SOBRE */
 
   .about {
     min-height: auto;
