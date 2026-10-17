@@ -4,7 +4,7 @@ Site demonstrativo de uma hamburgueria artesanal desenvolvido como parte do port
 
 O projeto foi criado com foco em um design moderno, responsivo e visualmente atrativo, apresentando um cardápio de hambúrgueres, a história da marca e uma página inicial voltada para conversão
 
-Versão 1.3
+Versão 1.4
 
 ## 🌐 Demonstração
 
