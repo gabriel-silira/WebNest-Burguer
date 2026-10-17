@@ -4,7 +4,7 @@ Site demonstrativo de uma hamburgueria artesanal desenvolvido como parte do port
 
 O projeto foi criado com foco em um design moderno, responsivo e visualmente atrativo, apresentando um cardápio de hambúrgueres, a história da marca e uma página inicial voltada para conversão
 
-Versão 1.4
+Versão 1.4.1
 
 ## 🌐 Demonstração
 
@@ -117,11 +117,20 @@ Entre os aspectos considerados estão:
 ```text
 WebNest-Burguer/
 │
+├── css/
+│   ├── responsive.css
+│   └── style.css
+│
 ├── images/
+│   ├── wn-burguer-logo.png
+│   ├── hamburgueria.png
+│   ├── sobre.png
+│   └── [imagens dos hambúrgueres]
+│
+├── js/
+│   └── script.js
 │
 ├── index.html
-├── style.css
-├── responsive.css
 ├── robots.txt
 ├── sitemap.xml
 └── README.md
@@ -130,9 +139,10 @@ WebNest-Burguer/
 ### Organização dos arquivos
 
 - **`index.html`** — estrutura e conteúdo do site.
-- **`style.css`** — estilos principais, cores e layout.
-- **`responsive.css`** — regras de responsividade para diferentes dispositivos.
-- **`images/`** — imagens utilizadas no projeto.
+- **`css/style.css`** — estilos principais, identidade visual, interações e animações.
+- **`css/responsive.css`** — regras de responsividade para diferentes dispositivos.
+- **`js/script.js`** — animações de entrada e comportamento demonstrativo dos botões de pedido.
+- **`images/`** — logo, imagens de ambiente e fotos dos hambúrgueres.
 - **`robots.txt`** — orientações para robôs de rastreamento.
 - **`sitemap.xml`** — mapa de URLs do site.
 - **`README.md`** — documentação do projeto.
